@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rakesh Rameshan's Portfolio</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"
+    />
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- SplideJs Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.1/dist/css/splide.min.css"
+    />
+    <!-- App Styles -->
+    <link rel="stylesheet" href="styles/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="animate__animated animate__slideInDown">
+        <div class="container">
+          <nav class="navigation">
+            <ul>
+              <li><a href="#portfolio">Services</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a class="btn btn--main" href="assets/resume.pdf" download
+              ><i class="bi bi-download"></i> Resume</a
+            >
+          </nav>
+
+          <h1 class="header__logo">
+            <a href="/">
+              <span>Rakesh</span>
+              <span>Rameshan</span>
+            </a>
+          </h1>
+
+          <div class="header__contact">
+            <a href="mailto:beenarameshan@yahoo.com">beenarameshan@yahoo.com</a>
+            <a class="btn btn--light" href="assets/resume.pdf" download>
+              <i class="bi bi-download"></i> Resume
+            </a>
+          </div>
+
+          <div class="header__mobile">
+            <button id="navigation-button">
+              <i class="bi bi-list"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__wrapper">
+          <div class="hero__img">
+            <img src="assets/profile.jpg" alt="Profile Picture" />
+          </div>
+          <h1 class="hero__title animate__animated animate__slideInUp">
+            BMW Senior Technician &<br />
+            Rolls-Royce HV Technician Plus
+          </h1>
+          <p class="hero__content animate__animated animate__slideInUp">
+            Aims to pursue senior managerial assignments Workshop Management, Maintenance Operations with a 
+            reputed organization in the automobile industry. 
+          </p>
+          <ul class="social animate__animated animate__slideInLeft">
+            <li>
+              <a href="https://www.linkedin.com/in/rakesh-rameshan-63290479/"><i class="bi bi-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/rakesh.pilakkalrameshan"><i class="bi bi-facebook"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section animate__animated animate__slideInUp" id="portfolio">
+      <div class="container">
+        <div class="section__header section__header">
+          <h2 class="section__title">Services</h2>
+          <p class="section__subtitle">Services provided</p>
+        </div>
+        <div class="portfolio">
+          <div class="portfolio__box">
+            <img class="portfolio__img" src="assets/portfolio-01.jpg" alt="Portfolio Items" />
+            <div class="portfolio__info">
+              <h3 class="portfolio__title">Air Conditioning</h3>
+              <p class="portfolio__content">
+                Clean and disinfect the evaporator and air duct systems,as well as treat the air vents
+                and interior to keep that new car smell for alittle longer
+              </p>
+              <a class="portfolio__link" href="#">
+                <i class="bi bi-arrow-up-right-circle-fill"></i>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio__box">
+            <img class="portfolio__img" src="assets/portfolio-02.jpg" alt="Portfolio Items" />
+            <div class="portfolio__info">
+              <h3 class="portfolio__title">Engine & Transmission overhauling Repair</h3>
+              <p class="portfolio__content">
+                In time you may need a transmission repair ie, transmission fluid leak,
+                burning rubber smell, jerking and shaking
+              </p>
+              <a class="portfolio__link" href="#">
+                <i class="bi bi-arrow-up-right-circle-fill"></i>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio__box">
+            <img class="portfolio__img" src="assets/portfolio-03.jpg" alt="Portfolio Items" />
+            <div class="portfolio__info">
+              <h3 class="portfolio__title">Fuel Injetion Cleaning</h3>
+              <p class="portfolio__content">
+                Helps to eliminate harmful carbon deposit buildup and helps restore your 
+                BMW's original fuel economy and dynamic power acceleration
+              </p>
+              <a class="portfolio__link" href="#">
+                <i class="bi bi-arrow-up-right-circle-fill"></i>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio__box">
+            <img class="portfolio__img" src="assets/portfolio-04.jpg" alt="Portfolio Items" />
+            <div class="portfolio__info">
+              <h3 class="portfolio__title">Diagnostics</h3>
+              <p class="portfolio__content">
+                Completing diagnostic tests using diagnostic tools that helps to identify all problems 
+                with the vehicle, using fault code to generate test plan
+              </p>
+              <a class="portfolio__link" href="#">
+                <i class="bi bi-arrow-up-right-circle-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="section__footer">
+          <a href="#contact">
+            Ask for More Projects
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">About</h2>
+          <p class="section__subtitle">Few things about me</p>
+        </div>
+        <div class="about">
+          <h3 class="about__intro">👋 Hi, I'm Rakesh Rameshan</h3>
+          <p class="about__bio">
+            A result-oriented professional with 16 years of experience in Vehicle Maintenance and Customer 
+            Service Operations and training.Proficiency in handling electric vehicle, vehicle over hauling & 
+            reconditioning, vehicle body building and stores management. 
+          </p>
+          <a class="about__link" href="#contact">Contact Me<i class="bi bi-arrow-right"></i></a>
+
+          <h4 class="about__skillsTitle">Skills</h4>
+          <ul class="about__skillsList">
+            <li class="btn btn--light">HV Technician Plus</li>
+            <li class="btn btn--light">Engine-Petrol&Diesel</li>
+            <li class="btn btn--light">Transmissions</li>
+            <li class="btn btn--light">Safety Systems</li>
+            <li class="btn btn--light">Air Conditioning</li>
+            <li class="btn btn--light">Fuel Injection</li>
+            <li class="btn btn--light">Diagnosis</li>
+            <li class="btn btn--light">Fault Finding</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="container">
+      <div class="section" id="testimonials">
+        <div class="section__header section__header--center">
+          <h2 class="section__title">People Says</h2>
+          <p class="section__subtitle">What others think about me</p>
+        </div>
+        <div class="testimonials">
+          <div class="splide">
+            <div class="splide__track">
+              <div class="splide__list">
+                <div class="testimonials__box splide__slide">
+                  <span class="testimonials__sign">
+                    <i class="bi bi-chat-square-quote"></i>
+                  </span>
+                  <p class="testimonials__quotes">
+                    This was my best experience with a mechanic. Shows you specific issues 
+                    or parts that need repair. This atmosphere of transparency is much appreciated.
+                  </p>
+                  <div class="testimonials__author">
+                    <div class="testimonials__authorInfo">
+                      <h4>Amal Masood</h4>
+                      <p>Sales Executive</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonials__box splide__slide">
+                  <span class="testimonials__sign">
+                    <i class="bi bi-chat-square-quote"></i>
+                  </span>
+                  <p class="testimonials__quotes">
+                    Great customer Service, Friendly and honest. The caris running great. It is hard to 
+                    come by honesty, accountable auto service teams.
+                  </p>
+                  <div class="testimonials__author">
+                    <div class="testimonials__authorInfo">
+                      <h4>Indhu D</h4>
+                      <p>HR Executive</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonials__box splide__slide">
+                  <span class="testimonials__sign">
+                    <i class="bi bi-chat-square-quote"></i>
+                  </span>
+                  <p class="testimonials__quotes">
+                    Thank you for your friendly and helpful team members. Your honest business pracices 
+                    and your willingness to go the extra mile. Word of mouth is everything and 
+                    I won't take my car anywhere else.
+                  </p>
+                  <div class="testimonials__author">
+                    <div class="testimonials__authorInfo">
+                      <h4>Pranav S</h4>
+                      <p>Marketing Executive</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="section__header section__header--center">
+        <h2 class="section__title">Contact Me</h2>
+        <p class="section__subtitle">Reach out to me, 24/7</p>
+      </div>
+      <div class="container">
+        <div class="contact">
+          <div class="contact__info">
+            <p>Call Me: <a href="tel:96872054063"> (968) 7205 4063</a></p>
+          </div>
+
+          <form class="contact__form" action="#" method="post">
+            <div class="contact__fields">
+              <label for="name">Name</label>
+              <input type="name" name="name" id="name" placeholder="Your Name" />
+            </div>
+            <div class="contact__fields">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="Email Address" />
+            </div>
+            <div class="contact__fields">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" placeholder="Write Message..."></textarea>
+            </div>
+            <div class="contact__fields contact__fields--action">
+              <button class="btn btn--accent" type="submit">
+                Send Message <i class="bi bi-arrow-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__copyright">
+          <p>Made with &hearts; by <a href="/">rakesh</a></p>
+        </div>
+        <div class="footer__social">
+          <ul class="social">
+            <li>
+              <a href="https://www.linkedin.com/in/rakesh-rameshan-63290479/"><i class="bi bi-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/rakesh.pilakkalrameshan"><i class="bi bi-facebook"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SplideJs v3 -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.1/dist/js/splide.min.js"></script>
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- App Scripts -->
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
